@@ -2,11 +2,6 @@
 
 CastorS castorS;
 
-void CastorS::begin() {
-    initPWM();
-    initPTC();
-}
-
 void CastorS::update() {
     updateBoost();
     updatePID();
